@@ -69,7 +69,7 @@
   font-weight: 500;
   line-height: 24px; /* 150% */
   border: none;
-  padding-left: 7px;
+  padding-left: 15px;
   transition: all 0.3s ease-in-out;
 }
 .navBar_btn > button:hover {
@@ -345,6 +345,7 @@
   cursor: pointer;
   position: relative;
   z-index: 99;
+  margin-top: 15px;
 }
 .contactDiv1 > .contact_btn > button {
   width: 55px;
@@ -504,7 +505,8 @@
   transform: scale(1.03);
 }
 .plan_card_wrapper > .divCards_plan > h3 {
-  width: 177.335px;
+  margin-bottom: 5px;
+  margin-top: 3px;
   height: 38.136px;
   flex-shrink: 0;
   color: #fff;
@@ -544,7 +546,12 @@
 .plan_card_wrapper > .divCards_plan > .ancor_wrapper > a {
   color: #fff;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
+.plan_card_wrapper > .divCards_plan > .ancor_wrapper > a:hover {
+  color: #ea580c;
+}
+
 .plan_card_wrapper {
   display: flex;
   gap: 18px;
